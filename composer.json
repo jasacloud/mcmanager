@@ -1,0 +1,20 @@
+{
+    "name": "jasacloud/mcmanager",
+    "description": "Library to handle Memacached Manager",
+    "keywords": ["Jasacloud", "Memcached", "MCManager", "Library"],
+    "type": "library",
+    "homepage": "https://github.com/jasacloud/mcmanager",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+	    "name": "Dwi BudUt",
+	    "email": "dwi@jasacloud.com",
+	    "homepage": "https://www.jasacloud.com",
+	    "role": "Developer"
+	}],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "files": ["src/MCManager/Autoload.php"]
+    }
+}
